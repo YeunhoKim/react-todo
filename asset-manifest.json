@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-todo/static/js/main.d3100bb1.js",
+    "main.js": "/react-todo/static/js/main.578f0639.js",
     "index.html": "/react-todo/index.html",
-    "main.d3100bb1.js.map": "/react-todo/static/js/main.d3100bb1.js.map"
+    "main.578f0639.js.map": "/react-todo/static/js/main.578f0639.js.map"
   },
   "entrypoints": [
-    "static/js/main.d3100bb1.js"
+    "static/js/main.578f0639.js"
   ]
 }
