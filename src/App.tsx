@@ -1,6 +1,6 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
-import TodoList from "./TodoList";
+import TodoList from "./components/TodoList";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Work+Sans:wght@300;700&display=swap');
@@ -31,9 +31,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   font-weight: 300;
+	font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	line-height: 1;
   background-color : ${(props) => props.theme.bgColor};
   color: ${(props) => props.theme.textColor};
+	max-width: 480px;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
