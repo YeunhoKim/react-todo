@@ -21,7 +21,7 @@ function ToDo({ text, category, id }: ITodo) {
     });
   };
   const delTodo = (event: React.MouseEvent<HTMLButtonElement>) => {
-    const { currentTarget } = event;
+    //const { currentTarget } = event;
     //console.log(currentTarget);
     setToDos((currentToDo) => {
       const targetIndex = currentToDo.findIndex((toDo) => toDo.id === id);
